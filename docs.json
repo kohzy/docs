@@ -33,12 +33,13 @@
       {
         "dropdown": "API References",
         "icon": "book-open",
-        
-        "pages": [
-          "api-reference/introduction",
-          "api-reference/authentication"
-        ],
         "groups": [
+          {
+            "pages": [
+              "api-reference/introduction",
+              "api-reference/authentication"
+            ]
+          },
           {
             "group": "Endpoints",
             "pages": [

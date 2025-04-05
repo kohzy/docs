@@ -23,9 +23,9 @@
         "dropdown": "API References",
         "icon": "sqaure-terminal",
         "pages": [
-          "api-reference/get",
-          "api-reference/post",
-          "api-reference/delete"
+          "api-reference/endpoint/get",
+          "api-reference/endpoint/create",
+          "api-reference/endpoint/delete"
         ]
       },
       {

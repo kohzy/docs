@@ -21,7 +21,7 @@
       },
       {
         "dropdown": "API References",
-        "icon": "sqaure-terminal",
+        "icon": "book-open",
         "pages": [
           "api-reference/endpoint/get",
           "api-reference/endpoint/create",
@@ -30,6 +30,7 @@
       },
       {
         "dropdown": "Blog",
+        "icon": "book-open",
         "href": "https://external-link.com/blog"
       }
     ]

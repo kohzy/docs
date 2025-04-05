@@ -35,11 +35,12 @@
         "icon": "book-open",
         "groups": [
           {
-            "group": "Start",
+            "group": "Getting Started",
             "pages": [
-              "api-reference/introduction",
-              "api-reference/authentication"
-            ]
+              "quickstart",
+              "development",
+              "navigation"
+            ]            
           },
           {
             "group": "Endpoints",

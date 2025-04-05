@@ -1,92 +1,122 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "maple",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "dropdowns": [
-      {
-        "dropdown": "Product Documentation",
-        "icon": "book-open",
-        "groups": [
-          {
-            "group": "Getting Started",
-            "pages": [
-              "quickstart",
-              "development",
-              "navigation"
-            ]            
-          },
-          {
-            "group": "Group 2",
-            "pages": [
-              "development"
-            ]
-          }
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "maple",
+    "name": "Mint Starter Kit",
+    "colors": {
+        "primary": "#16A34A",
+        "light": "#07C983",
+        "dark": "#15803D"
+    },
+    "favicon": "/favicon.svg",
+    "navigation": {
+        "dropdowns": [
+            {
+                "dropdown": "Product Documentation",
+                "icon": "book-open",
+                "groups": [
+                    {
+                        "group": "Getting Started",
+                        "pages": [
+                            "quickstart",
+                            "development",
+                            "navigation"
+                        ]
+                    },
+                    {
+                        "group": "Group 2",
+                        "pages": [
+                            "development"
+                        ]
+                    }
+                ]
+            },
+            {
+                "dropdown": "API References",
+                "icon": "book-open",
+                "versions": [
+                    {
+                        "version": "1.0.0",
+                        "groups": [
+                            {
+                                "group": "Getting Started",
+                                "pages": [
+                                    "quickstart",
+                                    "development"
+                                ]
+                            },
+                            {
+                                "group": "Endpoints",
+                                "pages": [
+                                    "api-reference/endpoint/get",
+                                    {
+                                        "group": "Plants",
+                                        "pages": [
+                                            "api-reference/endpoint/get",
+                                            "api-reference/endpoint/create",
+                                            "api-reference/endpoint/delete"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "version": "1.1.0",
+                        "groups": [
+                            {
+                                "group": "Getting Started",
+                                "pages": [
+                                    "quickstart",
+                                    "development",
+                                    "navigation"
+                                ]
+                            },
+                            {
+                                "group": "Endpoints",
+                                "pages": [
+                                    "api-reference/endpoint/get",
+                                    {
+                                        "group": "Plants",
+                                        "pages": [
+                                            "api-reference/endpoint/get",
+                                            "api-reference/endpoint/create"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "dropdown": "Blog",
+                "icon": "book-open",
+                "href": "https://external-link.com/blog"
+            }
         ]
-      },
-      {
-        "dropdown": "API References",
-        "icon": "book-open",
-        "groups": [
-          {
-            "group": "Getting Started",
-            "pages": [
-              "quickstart",
-              "development",
-              "navigation"
-            ]            
-          },
-          {
-            "group": "Endpoints",
-            "pages": [
-              {
-                "api-reference/endpoint/get",
-                {"group": "Plants",
-                "pages": [
-                  "api-reference/endpoint/get",
-                  "api-reference/endpoint/create",
-                  "api-reference/endpoint/delete"
-                ]}
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "dropdown": "Blog",
-        "icon": "book-open",
-        "href": "https://external-link.com/blog"
-      }
-    ]
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+    },
+    "logo": {
+        "light": "/logo/light.svg",
+        "dark": "/logo/dark.svg"
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Support",
+                "href": "mailto:hi@mintlify.com"
+            }
+        ],
+        "primary": {
+            "type": "button",
+            "label": "Dashboard",
+            "href": "https://dashboard.mintlify.com"
+        }
+    },
+    "footer": {
+        "socials": {
+            "x": "https://x.com/mintlify",
+            "github": "https://github.com/mintlify",
+            "linkedin": "https://linkedin.com/company/mintlify"
+        }
     }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
 }

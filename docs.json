@@ -9,7 +9,7 @@
     },
     "favicon": "/favicon.svg",
     "background": {
-        "decoration": "grid",
+        "decoration": "windows",
         "color": {
           "light": "#F2F4F7",
           "dark": "#101828"

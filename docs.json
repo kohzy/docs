@@ -9,10 +9,9 @@
     },
     "favicon": "/favicon.svg",
     "background": {
-        "decoration": "windows",
         "color": {
           "light": "#F2F4F7",
-          "dark": "#101828"
+          "dark": "#0B0F16"
         }
     },
     "navigation": {

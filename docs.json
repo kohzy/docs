@@ -49,6 +49,14 @@
                                 "api-reference/introduction",
                                 "api-reference/authentication"
                             ]
+                          },
+                          {
+                            "version": "v2",
+                            "group": "Getting Started 2",
+                            "pages": [
+                                "api-reference/introduction",
+                                "api-reference/authentication"
+                            ]
                           }
                         ]
                     },

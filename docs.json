@@ -13,10 +13,21 @@
       {
         "dropdown": "Product Documentation",
         "icon": "book-open",
-        "pages": [
-          "quickstart",
-          "development",
-          "navigation"
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "quickstart",
+              "development",
+              "navigation"
+            ]            
+          },
+          {
+            "group": "Group 2",
+            "pages": [
+              "development"
+            ]
+          }
         ]
       },
       {

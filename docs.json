@@ -10,29 +10,29 @@
   "favicon": "/favicon.svg",
   "navigation": {
     "dropdowns": [
-        {
-          "dropdown": "Product Documentation",
-          "icon": "book-open",
-          "pages": [
-            "quickstart",
-            "development",
-            "navigation"
-          ]
-        },
-        {
-          "dropdown": "API References",
-          "icon": "sqaure-terminal",
-          "pages": [
-            "api-reference/get",
-            "api-reference/post",
-            "api-reference/delete"
-          ]
-        },
-        {
-          "dropdown": "Blog",
-          "href": "https://external-link.com/blog"
-        }
-      ],
+      {
+        "dropdown": "Product Documentation",
+        "icon": "book-open",
+        "pages": [
+          "quickstart",
+          "development",
+          "navigation"
+        ]
+      },
+      {
+        "dropdown": "API References",
+        "icon": "sqaure-terminal",
+        "pages": [
+          "api-reference/get",
+          "api-reference/post",
+          "api-reference/delete"
+        ]
+      },
+      {
+        "dropdown": "Blog",
+        "href": "https://external-link.com/blog"
+      }
+    ],
     "tabs": [
       {
         "tab": "Guides",

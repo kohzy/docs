@@ -35,7 +35,7 @@
                 "icon": "book-open",
                 "versions": [
                     {
-                        "version": "1.0.0",
+                        "version": "latest",
                         "groups": [
                             {
                                 "group": "Getting Started",

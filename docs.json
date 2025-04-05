@@ -44,10 +44,11 @@
                     {
                         "group": "Endpoints",
                         "pages": [
-                            "api-reference/endpoint/get",
+                            "api-reference/newpage",
                             {
                                 "group": "Plants",
                                 "pages": [
+                                    "api-reference/introduction",
                                     "api-reference/endpoint/get",
                                     "api-reference/endpoint/create"
                                 ]

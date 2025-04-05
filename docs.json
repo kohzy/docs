@@ -1,6 +1,6 @@
 {
     "$schema": "https://mintlify.com/docs.json",
-    "theme": "palm",
+    "theme": "mint",
     "name": "Mint Starter Kit",
     "colors": {
         "primary": "#08214b",
@@ -10,7 +10,7 @@
     "favicon": "/favicon.svg",
     "background": {
         "color": {
-          "light": "#CDD5DF",
+          "light": "#EEF2F6",
           "dark": "#121926"
         }
     },
@@ -41,10 +41,15 @@
                 "icon": "book-open",
                 "groups": [
                     {
-                        "group": "Getting Started",
-                        "pages": [
-                            "api-reference/introduction",
-                            "api-reference/authentication"
+                        "versions": [
+                          {
+                            "version": "latest",
+                            "group": "Getting Started",
+                            "pages": [
+                                "api-reference/introduction",
+                                "api-reference/authentication"
+                            ]
+                          }
                         ]
                     },
                     {

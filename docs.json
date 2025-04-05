@@ -8,6 +8,13 @@
         "dark": "#08214b"
     },
     "favicon": "/favicon.svg",
+    "background": {
+        "decoration": "grid",
+        "color": {
+          "light": "#F9FAFB",
+          "dark": "#344054"
+        }
+    },
     "navigation": {
         "dropdowns": [
             {

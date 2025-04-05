@@ -47,12 +47,12 @@
             "pages": [
               {
                 "api-reference/endpoint/get",
-                "group": "Plants",
+                {"group": "Plants",
                 "pages": [
                   "api-reference/endpoint/get",
                   "api-reference/endpoint/create",
                   "api-reference/endpoint/delete"
-                ]
+                ]}
               }
             ]
           }

@@ -11,8 +11,8 @@
     "background": {
         "decoration": "grid",
         "color": {
-          "light": "#F9FAFB",
-          "dark": "#344054"
+          "light": "#F2F4F7",
+          "dark": "#101828"
         }
     },
     "navigation": {

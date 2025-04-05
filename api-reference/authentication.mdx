@@ -1,0 +1,24 @@
+---
+title: "Authentication"
+description: "Authenticating with the Mangrove API."
+---
+
+For secure access to protected resources, requests to the Mangrove API need to be authenticated in order to identify the requesting party and their role.
+
+## Prerequisites
+
+To connect to the API, make sure you have the following prerequisites in place:
+
+- **Bearer Token**: Obtain a JWT access token
+
+## Making Authenticated API Requests
+
+To make authenticated API requests, include the obtained access token in the `Authorization` header of your HTTP request:
+
+```
+Authorization: YOUR_ACCESS_TOKEN
+```
+
+## Error Handling
+
+Ensure your implementation handles various error scenarios, including token expiration, unauthorized access, and network errors.

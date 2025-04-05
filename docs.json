@@ -37,9 +37,8 @@
                     {
                         "group": "Getting Started",
                         "pages": [
-                            "quickstart",
-                            "development",
-                            "navigation"
+                            "api-reference/introduction",
+                            "api-reference/authentication"
                         ]
                     },
                     {
